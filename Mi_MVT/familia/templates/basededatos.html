@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Papa</title>
+    <title>Base de datos familia</title>
 </head>
 <body>
-    <h1 style="color: blue">Mi papa</h1>
-    <p>Mi papa se llamaba {{nombre}}</p>
-    <p>Tendria {{edad}} años</p>
-    <p>Su fecha de nacimiento es {{fecha_nac}}</p>
+    <h1>Listado de familiares en base de datos</h1>
+
+    {% for nombre in nombres %}
+        <p> {{ nombre }} </p>
+    {% endfor %}
 </body>
 </html>

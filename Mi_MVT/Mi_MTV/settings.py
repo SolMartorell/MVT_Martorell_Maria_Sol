@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Mi_MTV.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"C:\Users\msolm\OneDrive\Documents\Curso_Python\VSC\Mi_MVT\Mi_MVT\familia\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
